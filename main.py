@@ -1,5 +1,4 @@
 
-from utils import create_table, add_to_table
 
 from db_manager import DBManager
 
@@ -7,8 +6,8 @@ from db_manager import DBManager
 def main():
     employers_list = [1740, 15478, 8620, 3529, 78638, 4006, 4504679, 561525, 64174, 8642172]
     dbmanager = DBManager()
-    create_table()
-    add_to_table(employers_list)
+    #create_table()
+    #add_to_table(employers_list)
 
 
     while True:
