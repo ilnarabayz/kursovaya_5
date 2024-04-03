@@ -1,5 +1,3 @@
-
-
 from db_manager import DBManager
 
 
@@ -8,8 +6,6 @@ def main():
     dbmanager = DBManager()
     #create_table()
     #add_to_table(employers_list)
-
-
     while True:
 
         task = input(
